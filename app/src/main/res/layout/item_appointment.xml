@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tvAppointmentName"
+        style="@style/TextViewStyle16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/dimen_5"
+        android:paddingEnd="@dimen/dimen_5"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/tvAppointmentDate"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:layout_marginEnd="@dimen/dimen_5" />
+
+    <TextView
+        android:id="@+id/tvAppointmentDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextViewStyle16"
+        android:layout_marginTop="@dimen/dimen_5"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="@dimen/dimen_5"
+        app:layout_constraintEnd_toStartOf="@+id/btnDeleteAppointment"
+        android:layout_toStartOf="@+id/btnDeleteAppointment"/>
+
+    <ImageButton
+        android:id="@+id/btnDeleteAppointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_delete"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="@dimen/dimen_5"
+        android:layout_marginEnd="@dimen/dimen_5"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>

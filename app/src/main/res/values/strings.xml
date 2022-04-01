@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Hair Salon App</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+
+    <string name="wrong_credentials_title">Wrong Credentials!</string>
+    <string name="wrong_credentials_message">The credentials that
+        you have entered are not correct!</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="current_appointments">Current appointments</string>
+    <string name="new_appointment">New Appointment</string>
+    <string name="create_appointment">Create Appointment</string>
+    <string name="full_name">Full name</string>
+    <string name="success">Success</string>
+    <string name="appointment_created">Appointment created</string>
+</resources>
